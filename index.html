@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login-page</title>
+   
+    <script src="index.js" ></script>
+
    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -15,6 +18,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
 
 <style>
+    
     body{
         box-sizing: border-box;
         background-image:url('https://th.bing.com/th/id/R.c6d76810350e68214d7ce6217373431a?rik=rzCe4lPtWm8X1Q&riu=http%3a%2f%2fwww.livemint.com%2frf%2fImage-621x414%2fLiveMint%2fPeriod2%2f2016%2f09%2f26%2fPhotos%2fProcessed%2fmovie-kRzF--621x414%40LiveMint.jpg&ehk=S3%2fQSEwTu3zWIrEGTJdAlGIUNRYdi%2fjWvl8vThpEXEk%3d&risl=&pid=ImgRaw&r=0');
@@ -91,6 +95,7 @@ position: relative;
 margin: auto;
 line-height:4;
 
+
 }
 
 .btn{
@@ -113,21 +118,8 @@ label{
 
 </style>
 
-<script>
-    function btn_visible(){
-       var a=document.getElementById("mobile-num").value;
-       a=String(a)
-        var temp=document.getElementById("btn-visible");
-        temp.style.visibility="hidden";
-        if(a.length==10)
-           temp.style.visibility="visible";
-        else
-        temp.style.visibility="hidden";
-        
-    }
-</script>
-
 </head>
+
 <body>
    
         <div class="content container container">
